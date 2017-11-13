@@ -8,23 +8,22 @@ export default class Main extends Component {
 
     render() {
         return (
-            <div className = { Styles.footer }>
-                <div className = { Styles.footer_line}></div>
-                <div className = { Styles.footer_upper }>
-                    <div className = { Styles.footer_upper_select }>
-                        <select className = { Styles.footer_upper_select_item }>
+            <div className={Styles.footer}>
+                <div className={Styles.footer_upper}>
+                    <div className={Styles.footer_select}>
+                        <select className={Styles.footer_select_item}>
                             <option value="English">English</option>
                             <option value="Deutch">Deutch</option>
                             <option value="Spanish">Spanish</option>
                         </select>
-                        <select className = { Styles.footer_upper_select_item }>
+                        <select className={Styles.footer_select_item}>
                             <option value="dollar">US Dollar</option>
                             <option value="euro">Euro</option>
                             <option value="grn">Grivna</option>
-                        </select>  
+                        </select>
                     </div>
-                    <div className = { Styles.footer_upper_column }>
-                        <ul className = { Styles.footer_upper_column_list }>
+                    <div className={Styles.footer_upper_column}>
+                        <ul className={Styles.footer_list}>
                             <li>Airbnb</li>
                             <li><a href="#">О нас</a></li>
                             <li><a href="#">Карьера</a></li>
@@ -34,8 +33,8 @@ export default class Main extends Component {
                             <li><a href="#">Принадлежность, этнокультурные и другие различия</a></li>
                         </ul>
                     </div>
-                    <div className = { Styles.footer_upper_column }>
-                        <ul className = { Styles.footer_upper_column_list }>
+                    <div className={Styles.footer_upper_column}>
+                        <ul className={Styles.footer_list}>
                             <li>Подробнее о нас</li>
                             <li><a href="#">Доверие и безопасность</a></li>
                             <li><a href="#">Бонус на путешествие</a></li>
@@ -45,8 +44,8 @@ export default class Main extends Component {
                             <li><a href="#">Airbnbmag</a></li>
                         </ul>
                     </div>
-                    <div className = { Styles.footer_upper_column }>
-                        <ul className = { Styles.footer_upper_column_list }>
+                    <div className={Styles.footer_upper_column}>
+                        <ul className={Styles.footer_list}>
                             <li>Прием гостей</li>
                             <li><a href="#">Почему стоит принимать гостей</a></li>
                             <li><a href="#">Гостеприимство</a></li>
@@ -54,48 +53,21 @@ export default class Main extends Component {
                         </ul>
                     </div>
                 </div>
-                <div className = { Styles.footer_lower }>
-                    <div className = { Styles.line }></div>
-                    <div> Its lower footer</div>
+                <div className={Styles.footer_lower}>
+                    <div className={Styles.footer_line}></div>
+                    <div>&copy; Airbnb, Inc.</div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Site Map</a></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         );
-            {/* <div className = { Styles.footer }>
-                <div className = { Styles.footer_upper }> 
-                        <div>
-                            <select>
-                                <option value="English">English</option>
-                            </select>
-                            <select>
-                                <option value="English">English</option>
-                            </select>  
-                         </div>
-                        <div>
-                            <ul>
-                                <li>Airbnb</li>
-                                <li><a href="#">О нас</a></li>
-                                <li><a href="#">Карьера</a></li>
-                                <li><a href="#">Мы в процессе</a></li>
-                                <li><a href="#">Правила</a></li>
-                                <li><a href="#">Помощь</a></li>
-                                <li><a href="#">Принадлежность, этнокультурные и другие различия</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul>
-                                <li>Подробнее о нас</li>
-                                <li><a href="#">Доверие и безопасность</a></li>
-                                <li><a href="#">Бонус на путешествие</a></li>
-                                <li><a href="#">Airbnb Citizen</a></li>
-                                <li><a href="#">Деловые поездки</a></li>
-                                <li><a href="#">Путеводители</a></li>
-                                <li><a href="#">Airbnbmag</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr />
-                <div className = { Styles.footer_bottom }>
-                </div>
-            </div> */}
     }
 }
