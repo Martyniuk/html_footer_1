@@ -53,11 +53,10 @@ export default class Main extends Component {
                         </ul>
                     </div>
                 </div>
-                <div className={Styles.footer_lower}>
-                    <div className={Styles.footer_line}></div>
-                    <div>&copy; Airbnb, Inc.</div>
-                    <div>
-                        <ul>
+                <div className = { Styles.footer_lower }>
+                    <div className = { Styles.footer_signature }>&copy; Airbnb, Inc.</div>
+                    <div className = { Styles.footer_social }>
+                        <ul className = { Styles.footer_list }>
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Privacy</a></li>
                             <li><a href="#">Site Map</a></li>
