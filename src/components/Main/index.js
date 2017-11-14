@@ -60,9 +60,6 @@ export default class Main extends Component {
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Privacy</a></li>
                             <li><a href="#">Site Map</a></li>
-                            <li><span></span></li>
-                            <li><span></span></li>
-                            <li><span></span></li>
                         </ul>
                     </div>
                 </div>

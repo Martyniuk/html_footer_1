@@ -3,7 +3,6 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 400px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -69,14 +68,6 @@
                 }
     }
 
-    &:after {
-        content: '';
-        justify-content: center;
-    }
-
-        
-
-
 /* Start of Lower part of footer */
 
     &_lower {
@@ -85,8 +76,14 @@
         align-items: flex-end;
         justify-content: space-between;
         border-top: 1px solid #CECECE;
-        max-width:69%;
+        min-width: 53%;
+        margin: 0 auto;
+        padding: 10px;
     }
+    &_signarite {
+        color: #CECECE;
+    }
+
     &_social {
         display: flex;
         flex-direction: row;
@@ -97,97 +94,10 @@
         line-height: 22px;
         font-size: 14px;
         display: flex;
+        margin-bottom: 0;
+        li {
+            padding-left: 10px;
+        }
+
     }
 }
-
-
-
-
-
-
-
-
-
-/* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-top: 1px solid #CECECE;
-
-    &_upper {
-        display: flex;
-        justify-content: center;
-        margin: 40px 0;
-
-        ul {
-            margin: 0;
-        }    
-
-        div {
-            width: 200px;
-            margin: 0 30px;
-        }
-
-    &_select {
-        display: flex;
-        flex-direction: column;
-            
-            &_item {
-                width: 230px;
-                padding: 10px 5px;
-                margin-bottom: 10px; 
-                border-radius: 3px;
-            }
-        }
-
-    &_upper_column {
-        color: #656565;
-        display: flex;
-        text-align: left;
-    }
-    &_list {
-        list-style: none;
-
-        li:first-child {
-            color: #646262;
-            font-weight: 600;
-            margin-bottom: 10px;
-            font-size: 14px;
-        }
-
-        li a{
-            color: #828282;
-            line-height: 22px;
-            font-size: 14px;
-        }
-    }
-    a {
-        text-decoration: none;
-        color: #000;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
-
-    &_lower {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    &_line {
-        display: flex;
-        text-align: center;
-        width: 69%;
-        height: 1px;
-        background-color: #CECECE;
-    }
-}
-*/
