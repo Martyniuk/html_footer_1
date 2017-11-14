@@ -91,6 +91,13 @@
         display: flex;
         flex-direction: row;
     }
+    &_low_list {
+        list-style: none;
+        color: #828282;
+        line-height: 22px;
+        font-size: 14px;
+        display: flex;
+    }
 }
 
 
